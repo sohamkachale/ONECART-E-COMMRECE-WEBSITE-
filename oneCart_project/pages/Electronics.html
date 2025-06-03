@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>oneCart-Electronics</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=WDXL+Lubrifont+TC&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../Frontend/css/electronics.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #000000;">
+    <div class="container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold fs-3" href="#">
+        <i class="fa-solid fa-basket-shopping fa-1x text-white"></i><span id="Onecard-txt">OneCart</span>
+      </a>
+
+      <!-- Toggle button for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar content -->
+      <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+        <!-- Search bar -->
+        <form class="d-flex mx-auto w-50" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn-1 liquid-1" type="submit">
+            <i class="fa-solid fa-magnifying-glass text-white"></i>
+            <span></span>
+          </button>
+        </form>
+
+        <!-- Menu items -->
+        <ul class="navbar-nav mb-2 mb-lg-0 gap-3">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-bolt fa-1x text-white"></i> <span id="drop-txt"><b>Electronics</b></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-shirt text-white"></i> <span id="drop-txt"><b>Fashion</b></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-carrot text-white"></i> <span id="drop-txt"><b>Grocerry</b></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <button class="btn btn-success"><i class="fa-solid fa-right-to-bracket"></i> Log in</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="videoCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="15000">
+    <div class="carousel-inner">
+
+      <!-- Video Slide 1 -->
+      <div class="carousel-item active">
+        <video autoplay muted loop>
+          <source src="../Frontend/images/samsung-TV.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <a href="#"
+          class="btn btn-warning position-absolute bottom-0 start-50 translate-middle-x mb-4 px-4 py-2 fw-bold">
+          Buy Now
+        </a>
+      </div>
+
+      <!-- Video Slide 2 -->
+      <div class="carousel-item">
+        <video autoplay muted loop>
+          <source src="../Frontend/images/realme-phone.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <a href="#"
+          class="btn btn-warning position-absolute bottom-0 start-50 translate-middle-x mb-4 px-4 py-2 fw-bold">
+          Buy Now
+        </a>
+      </div>
+
+      <!-- Video Slide 3 -->
+      <div class="carousel-item">
+        <video autoplay muted loop>
+          <source src="../Frontend/images/nothing-phone.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <a href="#"
+          class="btn btn-warning position-absolute bottom-0 start-50 translate-middle-x mb-4 px-4 py-2 fw-bold">
+          Buy Now
+        </a>
+      </div>
+
+      <!-- Video Slide 4 -->
+      <div class="carousel-item">
+        <video autoplay muted loop>
+          <source src="../Frontend/images/playstation.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <a href="#"
+          class="btn btn-warning position-absolute bottom-0 start-50 translate-middle-x mb-4 px-4 py-2 fw-bold">
+          Buy Now
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Prev/Next Buttons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <div class="container-fluid">
+    <p class="text-center mt-4 week-txt">This Weeks's Highlights.</p>
+  </div>
+
+
+
+  <!-- Tab Buttons -->
+  <div class="container mt-4">
+    <div class="row mb-3">
+      <div class="col-3">
+        <button class=" w-100 btn btn-border-reveal" onclick="show('New-In', this)"><span
+            class="btn-text"><b>New-In</b></span></button>
+      </div>
+      <div class="col-3">
+        <button class=" btn btn-border-reveal w-100" onclick="show('mobile-card', this)"><span
+            class="btn-text"><b>MOBILE</b></span></button>
+      </div>
+      <div class="col-3">
+        <button class=" btn btn-border-reveal w-100" onclick="show('TV-card', this)"><span
+            class="btn-text"><b>TV</b></span></button>
+      </div>
+      <div class="col-3">
+        <button class=" btn btn-border-reveal w-100" onclick="show('ac-card', this)"><span
+            class="btn-text"><b>Appliances</b></span></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Cards -->
+  <div class="container my-4" id="card-container">
+    <!-- Tab Card Template -->
+    <div class="card shadow p-3" id="New-In">
+      <!-- Tab content here -->
+      <div class="row g-3">
+        <div class="col-md-6 d-flex justify-content-center align-items-center custom-border">
+          <div class="product-card text-center">
+            <img src="../Frontend/images/tv--1-removebg-preview.png" alt="Main Product" class="img-fluid" />
+            <div class="product-info">
+              <h5 class="product-title">Samsung OLED TV</h5>
+              <p class="product-price">Starting EMI Just ₹8728/mo.*</p>
+             <center>  <button class="buy-now-btn">
+        <i class="fas fa-shopping-cart"></i>
+        BUY NOW
+    </button></center>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-3">
+            <!-- Repeatable small cards -->
+            <div class="col-6" id="product-small-template">
+              <div class="product-card text-center">
+                <img src="../Frontend/images/new-phone-removebg-preview.png" alt="Product 1" class="img-fluid">
+                <div class="product-info">
+                  <h4 class="product-title">Galaxy A36 5G</h4>
+                  <p class="product-price">Starts at ₹23999</p>
+                    <center>  <button class="buy-now-btn">
+        <i class="fas fa-shopping-cart"></i>
+        BUY NOW
+    </button></center>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="product-card text-center">
+                <img src="../Frontend/images/new-phone-2-removebg-preview.png" alt="Product 2" class="img-fluid">
+                <div class="product-info">
+                  <h6 class="product-title">Samsung S25 Series</h6>
+                  <p class="product-price">Starts at ₹79999</p>
+                    <center>  <button class="buy-now-btn">
+        <i class="fas fa-shopping-cart"></i>
+        BUY NOW
+    </button></center>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="product-card text-center">
+                <img src="../Frontend/images/applinces-removebg-preview.png" alt="Product 3" class="img-fluid">
+                <div class="product-info">
+                  <h6 class="product-title" >LG Washing-machine</h6>
+                  <p class="product-price">Starts at ₹29999</p>
+                   <center>  <button class="buy-now-btn">
+        <i class="fas fa-shopping-cart"></i>
+        BUY NOW
+    </button></center>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="product-card text-center">
+                <img src="../Frontend/images/laptop-1-removebg-preview.png" alt="Product 4" class="img-fluid">
+                <div class="product-info">
+                  <h6 class="product-title">DELL Laptops</h6>
+                  <p class="product-price">Starts at ₹34999</p>
+  <center>  <button class="buy-now-btn">
+        <i class="fas fa-shopping-cart"></i>
+        BUY NOW
+    </button></center>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-4" id="card-container"><!-- Duplicate for other tabs -->
+    <div class="card shadow p-3" id="mobile-card" style="display: none;">
+      <!-- Copy structure above -->
+     
+       <div class="row g-3">
+        <div class="col-md-6 d-flex justify-content-center align-items-center custom-border">
+          <div class="product-card text-center">
+            <img src="../Frontend/images/phonecart-1-removebg-preview.png" alt="Main Product" class="img-fluid" style="height: 450px;" />
+            <div class="product-info">
+              <h5 class="product-title">Galaxy S25 Ultra</h5>
+              <p class="product-price">Starting ₹117999*</p>
+             <center>  <button class="buy-now-btn">
+        <i class="fas fa-shopping-cart"></i>
+        BUY NOW
+    </button></center>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-3">
+            <!-- Repeatable small cards -->
+            <div class="col-6" id="product-small-template">
+              <div class="product-card text-center">
+                <img src="../Frontend/images/phone-1-removebg-preview.png" alt="Product 1" class="img-fluid" style="height: 300px; width: 250px;">
+                <div class="product-info">
+                  <h4 class="product-title">Galaxy A36 5G</h4>
+                  <p class="product-price">Starts at ₹23999*</p>
+                    <center>  <button class="buy-now-btn">
+        <i class="fas fa-shopping-cart"></i>
+        BUY NOW
+    </button></center>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="product-card text-center">
+                <img src="../Frontend/images/phone-2-removebg-preview.png" alt="Product 2" class="img-fluid" style="height: 300px;  width: 250px;">
+                <div class="product-info">
+                  <h6 class="product-title">Samsung S25</h6>
+                  <p class="product-price">Starting ₹79999*</p>
+                    <center>  <button class="buy-now-btn">
+        <i class="fas fa-shopping-cart"></i>
+        BUY NOW
+    </button></center>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="product-card text-center">
+                <img src="../Frontend/images/phone-3-removebg-preview.png" alt="Product 3" class="img-fluid" style="height: 300px;  width: 250px;">
+                <div class="product-info">
+                  <h6 class="product-title" >Samsung A17</h6>
+                  <p class="product-price">Starting at ₹29999*</p>
+                   <center>  <button class="buy-now-btn">
+        <i class="fas fa-shopping-cart"></i>
+        BUY NOW
+    </button></center>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="product-card text-center">
+                <img src="../Frontend/images/phone-cart-2-removebg-preview.png" alt="Product 4" class="img-fluid" style="height: 300px;  width: 250px;">
+                <div class="product-info">
+                  <h6 class="product-title">Fold 5</h6>
+                  <p class="product-price">Starting ₹111999*</p>
+  <center>  <button class="buy-now-btn">
+        <i class="fas fa-shopping-cart"></i>
+        BUY NOW
+    </button></center>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+   
+    <div class="container my-4" id="card-container">
+    <div class="card shadow p-3" id="TV-card" style="display: none;">
+      
+       <div class="row g-3">
+        <div class="col-md-6 d-flex justify-content-center align-items-center custom-border">
+          <div class="product-card text-center">
+            <img src="../Frontend/images/tv-1-removebg-preview.png" alt="Main Product" class="img-fluid" />
+            <div class="product-info">
+              <h5 class="product-title">Samsung OLED Monitors</h5>
+              <p class="product-price">Starting EMI Just ₹1728/mo.*</p>
+             <center>  <button class="buy-now-btn">
+        <i class="fas fa-shopping-cart"></i>
+        BUY NOW
+    </button></center>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-3">
+            <!-- Repeatable small cards -->
+            <div class="col-6" id="product-small-template">
+              <div class="product-card text-center">
+                <img src="../Frontend/images/tv--1-removebg-preview (1).png" alt="Product 1" class="img-fluid">
+                <div class="product-info">
+                  <h4 class="product-title">Samsung-OLED-TV</h4>
+                  <p class="product-price">Starts at ₹43999*</p>
+                    <center>  <button class="buy-now-btn">
+        <i class="fas fa-shopping-cart"></i>
+        BUY NOW
+    </button></center>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="product-card text-center">
+                <img src="../Frontend/images/tv-3-removebg-preview.png" alt="Product 2" class="img-fluid">
+                <div class="product-info">
+                  <h6 class="product-title">Redmi Smart Fire TV-32</h6>
+                  <p class="product-price">Starts at ₹29999*</p>
+                    <center>  <button class="buy-now-btn">
+        <i class="fas fa-shopping-cart"></i>
+        BUY NOW
+    </button></center>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="product-card text-center">
+                <img src="../Frontend/images/tv-4-removebg-preview.png" alt="Product 3" class="img-fluid">
+                <div class="product-info">
+                  <h6 class="product-title" >Redmi Smart Fire TV-32</h6>
+                  <p class="product-price">Starts at ₹15999*</p>
+                   <center>  <button class="buy-now-btn">
+        <i class="fas fa-shopping-cart"></i>
+        BUY NOW
+    </button></center>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="product-card text-center">
+                <img src="../Frontend/images/tv-5-removebg-preview.png" alt="Product 4" class="img-fluid">
+                <div class="product-info">
+                  <h6 class="product-title">Redmi 4K TV</h6>
+                  <p class="product-price">Starts at ₹19999*</p>
+  <center>  <button class="buy-now-btn">
+        <i class="fas fa-shopping-cart"></i>
+        BUY NOW
+    </button></center>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container my-4" id="card-container">
+    <div class="card shadow p-3" id="ac-card" style="display: none;">
+        <div class="row g-3">
+            <!-- Main Product Card -->
+            <div class="col-md-6 d-flex justify-content-center align-items-center custom-border" >
+                <div class="product-card text-center">
+                    <img src="../Frontend/images/appli-1-removebg-preview.png" alt="Samsung OLED TV" class="img-fluid" />
+                    <div class="product-info">
+                        <h5 class="product-title">Samsung Washing-machine</h5>
+                        <p class="product-price">Starting EMI Just ₹7728/mo.*</p>
+                        <button class="buy-now-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            BUY NOW
+                        </button>
+                    </div>
+                                    <P>Learn more</P>
+                  </div>
+           
+            </div> 
+            <!-- Small Product Cards -->
+            <div class="col-md-6">
+                <div class="row g-3">
+                    <!-- Product 1 -->
+                    <div class="col-6">
+                        <div class="product-card text-center">
+                            <img src="../Frontend/images/appli-2-removebg-preview.png" alt="Galaxy A36 5G" class="img-fluid">
+                            <div class="product-info">
+                                <h4 class="product-title">LG Washing-machine - 8kg</h4>
+                                <p class="product-price">Starts at ₹29999</p>
+                                <button class="buy-now-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 2 -->
+                    <div class="col-6">
+                        <div class="product-card text-center mt-5 " style="height: 300px;">
+                            <img src="../Frontend/images/appli-3-removebg-preview.png" alt="Samsung S25 Series" class="img-fluid">
+                            <div class="product-info">
+                                <h6 class="product-title">Voltas AC</h6>
+                                <p class="product-price">Starts at ₹24999</p>
+                                <button class="buy-now-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 3 -->
+                    <div class="col-6">
+                        <div class="product-card text-center">
+                            <img src="../Frontend/images/appli-4-removebg-preview.png" alt="LG Washing-machine" class="img-fluid">
+                            <div class="product-info">
+                                <h6 class="product-title">Hair Frigde</h6>
+                                <p class="product-price">Starts at ₹11999</p>
+                                <button class="buy-now-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 4 -->
+                    <div class="col-6">
+                        <div class="product-card text-center Micro-Ovan mt-5"  style="height: 300px;">
+                            <img src="../Frontend/images/appli-5-removebg-preview.png" alt="DELL Laptops" class="img-fluid" >
+                            <div class="product-info">
+                                <h6 class="product-title">Micro-Ovan</h6>
+                                <p class="product-price">Starts at ₹8999</p>
+                                <button class="buy-now-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <p class="text-center mt-4 week-txt">Mobile's</p>
+</div>
+
+ <div class="container mt-4">
+        <div class="row mb-3">
+            <div class="col-3">
+                <button class="w-100 btn btn-border-reveal active-btn" onclick="shows('Realme', this)"><span class="btn-text"><b>Realme</b></span></button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-border-reveal w-100" onclick="shows('Nothing', this)"><span class="btn-text"><b>Nothing</b></span></button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-border-reveal w-100" onclick="shows('Redmi', this)"><span class="btn-text"><b>Redmi</b></span></button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-border-reveal w-100" onclick="shows('Motrola', this)"><span class="btn-text"><b>Motorola</b></span></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Realme Section -->
+    <div class="container py-5" id="Realme">
+        <h1 class="text-center mb-5">Realme Phones</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+              <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/re-1.PNG" class="card-img-top mx-auto" alt="Galaxy S25" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">Realme GT 7T</h5>
+                        <p><strong>Colour :</strong> Mint</p>
+                        <div class="my-2">
+                            <span class="color-dot" style="background-color: #d0d8df;"></span>
+                            <span class="color-dot" style="background-color: #3b5998;"></span>
+                            <span class="color-dot" style="background-color: #888;"></span>
+                            <span class="color-dot selected" style="background-color: #b8e2dc;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn selected">128 GB</button>
+                            <button class="storage-btn">256 GB</button>
+                            <button class="storage-btn">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 34,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Card 2 -->
+            <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/re-5.PNG" class="card-img-top mx-auto" alt="Galaxy S24" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">realme 14x 5G</h5>
+                        <p><strong>Colour :</strong> Blue</p>
+                        <div class="my-2">
+                            <span class="color-dot selected" style="background-color: #3b5998;"></span>
+                            <span class="color-dot" style="background-color: #b0b0b0;"></span>
+                            <span class="color-dot" style="background-color: #222;"></span>
+                            <span class="color-dot" style="background-color: #ffe4b5;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn">128 GB</button>
+                            <button class="storage-btn selected">256 GB</button>
+                            <button class="storage-btn">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 14,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Card 3 -->
+            <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/re-3.PNG" class="card-img-top mx-auto" alt="Galaxy S23 Ultra" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">realme Narzo 80 pro 5G</h5>
+                        <p><strong>Colour :</strong> Burgundy</p>
+                        <div class="my-2">
+                            <span class="color-dot selected" style="background-color: #800020;"></span>
+                            <span class="color-dot" style="background-color: #708090;"></span>
+                            <span class="color-dot" style="background-color: #000;"></span>
+                            <span class="color-dot" style="background-color: #f4f4f4;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn">128 GB</button>
+                            <button class="storage-btn">256 GB</button>
+                            <button class="storage-btn selected">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 17,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Card 4 -->
+            <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/re-4.PNG" class="card-img-top mx-auto" alt="Galaxy S22 Ultra" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">realme P3 pro 5G</h5>
+                        <p><strong>Colour :</strong> Phantom Black</p>
+                        <div class="my-2">
+                            <span class="color-dot" style="background-color: #444;"></span>
+                            <span class="color-dot selected" style="background-color: #000;"></span>
+                            <span class="color-dot" style="background-color: #999;"></span>
+                            <span class="color-dot" style="background-color: #c0c0c0;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn selected">128 GB</button>
+                            <button class="storage-btn">256 GB</button>
+                            <button class="storage-btn">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 20,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nothing Section -->
+    <div class="container py-5" id="Nothing" style="display: none;">
+        <h1 class="text-center mb-5">Nothing Phones </h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+              <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/o-1.PNG" class="card-img-top mx-auto" alt="Galaxy S25" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">Nothing 2a 5G</h5>
+                        <p><strong>Colour :</strong> Mint</p>
+                        <div class="my-2">
+                            <span class="color-dot" style="background-color: #d0d8df;"></span>
+                            <span class="color-dot" style="background-color: #3b5998;"></span>
+                            <span class="color-dot" style="background-color: #888;"></span>
+                            <span class="color-dot selected" style="background-color: #b8e2dc;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn selected">128 GB</button>
+                            <button class="storage-btn">256 GB</button>
+                            <button class="storage-btn">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 23,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Card 2 -->
+            <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/o-2.PNG" class="card-img-top mx-auto" alt="Galaxy S24" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">Nothing 3a 5G</h5>
+                        <p><strong>Colour :</strong> Blue</p>
+                        <div class="my-2">
+                            <span class="color-dot selected" style="background-color: #3b5998;"></span>
+                            <span class="color-dot" style="background-color: #b0b0b0;"></span>
+                            <span class="color-dot" style="background-color: #222;"></span>
+                            <span class="color-dot" style="background-color: #ffe4b5;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn">128 GB</button>
+                            <button class="storage-btn selected">256 GB</button>
+                            <button class="storage-btn">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 26,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Card 3 -->
+            <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/o-3.PNG" class="card-img-top mx-auto" alt="Galaxy S23 Ultra" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">Nothing 3a 5G-Blue</h5>
+                        <p><strong>Colour :</strong> Burgundy</p>
+                        <div class="my-2">
+                            <span class="color-dot selected" style="background-color: #800020;"></span>
+                            <span class="color-dot" style="background-color: #708090;"></span>
+                            <span class="color-dot" style="background-color: #000;"></span>
+                            <span class="color-dot" style="background-color: #f4f4f4;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn">128 GB</button>
+                            <button class="storage-btn">256 GB</button>
+                            <button class="storage-btn selected">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 26,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Card 4 -->
+            <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/o-4.PNG" class="card-img-top mx-auto" alt="Galaxy S22 Ultra" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">Nothing 3a pro 5G</h5>
+                        <p><strong>Colour :</strong> Phantom Black</p>
+                        <div class="my-2">
+                            <span class="color-dot" style="background-color: #444;"></span>
+                            <span class="color-dot selected" style="background-color: #000;"></span>
+                            <span class="color-dot" style="background-color: #999;"></span>
+                            <span class="color-dot" style="background-color: #c0c0c0;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn selected">128 GB</button>
+                            <button class="storage-btn">256 GB</button>
+                            <button class="storage-btn">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 33,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Redmi Section -->
+    <div class="container py-5" id="Redmi" style="display: none;">
+        <h1 class="text-center mb-5">Redmi Phones</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+  <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/x-1.PNG" class="card-img-top mx-auto" alt="Galaxy S25" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">Xiaomi 15 Ultra</h5>
+                        <p><strong>Colour :</strong> Mint</p>
+                        <div class="my-2">
+                            <span class="color-dot" style="background-color: #d0d8df;"></span>
+                            <span class="color-dot" style="background-color: #3b5998;"></span>
+                            <span class="color-dot" style="background-color: #888;"></span>
+                            <span class="color-dot selected" style="background-color: #b8e2dc;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn selected">128 GB</button>
+                            <button class="storage-btn">256 GB</button>
+                            <button class="storage-btn">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 1,09,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Card 2 -->
+            <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/x-2.PNG" class="card-img-top mx-auto" alt="Galaxy S24" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">Xiaomi 15</h5>
+                        <p><strong>Colour :</strong> Blue</p>
+                        <div class="my-2">
+                            <span class="color-dot selected" style="background-color: #3b5998;"></span>
+                            <span class="color-dot" style="background-color: #b0b0b0;"></span>
+                            <span class="color-dot" style="background-color: #222;"></span>
+                            <span class="color-dot" style="background-color: #ffe4b5;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn">128 GB</button>
+                            <button class="storage-btn selected">256 GB</button>
+                            <button class="storage-btn">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 64,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Card 3 -->
+            <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/x-3.PNG" class="card-img-top mx-auto" alt="Galaxy S23 Ultra" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">Xiaomi 14 CIVI</h5>
+                        <p><strong>Colour :</strong> Burgundy</p>
+                        <div class="my-2">
+                            <span class="color-dot selected" style="background-color: #800020;"></span>
+                            <span class="color-dot" style="background-color: #708090;"></span>
+                            <span class="color-dot" style="background-color: #000;"></span>
+                            <span class="color-dot" style="background-color: #f4f4f4;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn">128 GB</button>
+                            <button class="storage-btn">256 GB</button>
+                            <button class="storage-btn selected">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 39,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Card 4 -->
+            <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/x-4.PNG" class="card-img-top mx-auto" alt="Galaxy S22 Ultra" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">Redmi Note 14 Pro 5G</h5>
+                        <p><strong>Colour :</strong> Phantom Black</p>
+                        <div class="my-2">
+                            <span class="color-dot" style="background-color: #444;"></span>
+                            <span class="color-dot selected" style="background-color: #000;"></span>
+                            <span class="color-dot" style="background-color: #999;"></span>
+                            <span class="color-dot" style="background-color: #c0c0c0;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn selected">128 GB</button>
+                            <button class="storage-btn">256 GB</button>
+                            <button class="storage-btn">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 23,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Motrola Section -->
+    <div class="container py-5" id="Motrola" style="display: none;">
+        <h1 class="text-center mb-5">Motorola Phones</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+              <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/m-1.PNG" class="card-img-top mx-auto" alt="Galaxy S25" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">motorola edge 60 fusion</h5>
+                        <p><strong>Colour :</strong> Mint</p>
+                        <div class="my-2">
+                            <span class="color-dot" style="background-color: #d0d8df;"></span>
+                            <span class="color-dot" style="background-color: #3b5998;"></span>
+                            <span class="color-dot" style="background-color: #888;"></span>
+                            <span class="color-dot selected" style="background-color: #b8e2dc;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn selected">128 GB</button>
+                            <button class="storage-btn">256 GB</button>
+                            <button class="storage-btn">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 22,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Card 2 -->
+            <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/m-2.PNG" class="card-img-top mx-auto" alt="Galaxy S24" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">motorola edge 50 fusion</h5>
+                        <p><strong>Colour :</strong> Blue</p>
+                        <div class="my-2">
+                            <span class="color-dot selected" style="background-color: #3b5998;"></span>
+                            <span class="color-dot" style="background-color: #b0b0b0;"></span>
+                            <span class="color-dot" style="background-color: #222;"></span>
+                            <span class="color-dot" style="background-color: #ffe4b5;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn">128 GB</button>
+                            <button class="storage-btn selected">256 GB</button>
+                            <button class="storage-btn">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 18,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Card 3 -->
+            <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/m-3.PNG" class="card-img-top mx-auto" alt="Galaxy S23 Ultra" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">motorola edge 60 stylus</h5>
+                        <p><strong>Colour :</strong> Burgundy</p>
+                        <div class="my-2">
+                            <span class="color-dot selected" style="background-color: #800020;"></span>
+                            <span class="color-dot" style="background-color: #708090;"></span>
+                            <span class="color-dot" style="background-color: #000;"></span>
+                            <span class="color-dot" style="background-color: #f4f4f4;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn">128 GB</button>
+                            <button class="storage-btn">256 GB</button>
+                            <button class="storage-btn selected">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 22,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Card 4 -->
+            <div class="col">
+                <div class="card shadow p-3 rounded-4 text-center h-100">
+                    <img src="../Frontend/images/m-4.PNG" class="card-img-top mx-auto" alt="Galaxy S22 Ultra" style="max-height: 200px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">moto g85 5G</h5>
+                        <p><strong>Colour :</strong> Phantom Black</p>
+                        <div class="my-2">
+                            <span class="color-dot" style="background-color: #444;"></span>
+                            <span class="color-dot selected" style="background-color: #000;"></span>
+                            <span class="color-dot" style="background-color: #999;"></span>
+                            <span class="color-dot" style="background-color: #c0c0c0;"></span>
+                        </div>
+                        <div class="my-2">
+                            <button class="storage-btn selected">128 GB</button>
+                            <button class="storage-btn">256 GB</button>
+                            <button class="storage-btn">512 GB</button>
+                        </div>
+                        <h6 class="fw-bold mt-auto">₹ 15,999.00</h6>
+                        <p><a href="#" class="text-primary small">EMI Calculator <i class="fas fa-calculator ms-1"></i></a></p>
+                        <button class="btn btn-dark rounded-pill w-100 btn-buy-now mt-2">
+                            Buy now <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+    <p class="text-center mt-4 week-txt">Recommended Products</p>
+  </div>
+
+      <div class="container py-4 py-md-5">
+        
+        <div class="row g-3 g-md-4">
+            <!-- TV 1 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="cart-card card h-100">
+                    <div class="badge bg-danger position-absolute" style="top: 10px; right: 10px;">Sale</div>
+                    <img src="../Frontend/images/tv--1-removebg-preview.png" class="cart-img card-img-top" alt="Smart TV">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Samsung 55" QLED Smart TV</h5>
+                        <p class="card-text flex-grow-1">4K UHD with Quantum Dot Technology and Alexa Built-in.</p>
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+                            <span class="price-tag"><span class="rupee-symbol">₹</span>64,999</span>
+                            <button class="btn btn-buy text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- TV 2 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="cart-card card h-100">
+                    <img src="../Frontend/images/tv-3-removebg-preview.png" class="cart-img card-img-top" alt="OLED TV">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Redmi Smart Fire TV</h5>
+                        <p class="card-text flex-grow-1">Self-lit pixels for perfect black and infinite contrast.</p>
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+                            <span class="price-tag"><span class="rupee-symbol">₹</span>1,09,999</span>
+                            <button class="btn btn-buy text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Fridge -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="cart-card card h-100">
+                    <div class="badge bg-success position-absolute" style="top: 10px; right: 10px;">Eco</div>
+                    <img src="../Frontend/images/appli-4-removebg-preview.png" class="cart-img card-img-top" alt="Refrigerator">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">LG Smart Inverter Refrigerator</h5>
+                        <p class="card-text flex-grow-1">Energy efficient with Smart Cooling System and Door Cooling+.</p>
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+                            <span class="price-tag"><span class="rupee-symbol">₹</span>89,990</span>
+                            <button class="btn btn-buy text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- AC -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="cart-card card h-100">
+                    <div class="badge bg-info position-absolute" style="top: 10px; right: 10px;">New</div>
+                    <img src="../Frontend/images/appli-3-removebg-preview.png" class="cart-img card-img-top" alt="Air Conditioner">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Daikin Inverter AC 1.5 Ton</h5>
+                        <p class="card-text flex-grow-1">5-star rated with copper condenser and PM 2.5 filter.</p>
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+                            <span class="price-tag"><span class="rupee-symbol">₹</span>42,499</span>
+                            <button class="btn btn-buy text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+  </div>
+
+    <footer class="bg-black text-white pt-5 pb-4">
+  <div class="container-fluid text-md-left">
+    <div class="row text-md-left">
+
+      <!-- Logo and About -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">OneCart</h5>
+        <p>Your one-stop online shop for the best deals on electronics, fashion, home essentials, and more!</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Shop</h5>
+        <p><a href="#" class="text-white text-decoration-none">Men</a></p>
+        <p><a href="#" class="text-white text-decoration-none">Women</a></p>
+        <p><a href="#" class="text-white text-decoration-none">Electronics</a></p>
+        <p><a href="#" class="text-white text-decoration-none">Home & Kitchen</a></p>
+      </div>
+
+      <!-- Customer Support -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Support</h5>
+        <p><a href="#" class="text-white text-decoration-none">Help Center</a></p>
+        <p><a href="#" class="text-white text-decoration-none">Returns</a></p>
+        <p><a href="#" class="text-white text-decoration-none">Shipping</a></p>
+        <p><a href="#" class="text-white text-decoration-none">Terms of Service</a></p>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+        <p><i class="fas fa-home me-3"></i> Mumbai, India</p>
+        <p><i class="fas fa-envelope me-3"></i> support@onecart.com</p>
+        <p><i class="fas fa-phone me-3"></i> +91 12345 67890</p>
+        <p><i class="fas fa-print me-3"></i> +91 98765 43210</p>
+      </div>
+    </div>
+
+    <!-- Social Media -->
+    <div class="row align-items-center mt-4">
+      <div class="col-md-7 col-lg-8">
+        <p class="text-white">© 2025 OneCart. All Rights Reserved.</p>
+      </div>
+
+      <div class="col-md-5 col-lg-4">
+        <div class="text-center text-md-right">
+          <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+ 
+
+  
+  <script src="../Frontend/js/script.js" defer></script>
+
+  <!-- Bootstrap JS + Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+    integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+<!-- Footer -->
