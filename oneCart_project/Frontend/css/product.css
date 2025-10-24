@@ -1,0 +1,313 @@
+  /* Custom Animations */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-5px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        /* Product Gallery */
+        .product-gallery img {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .product-gallery img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .thumbnail {
+            opacity: 0.7;
+            transition: all 0.3s ease;
+        }
+        .thumbnail.active {
+            opacity: 1;
+            border: 2px solid #0d6efd;
+            transform: scale(1.05);
+        }
+        
+        /* Attractive Buttons */
+        .btn-buy-now {
+            background: linear-gradient(135deg, #4e54c8, #8f94fb);
+            border: none;
+            color: white;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(78, 84, 200, 0.3);
+            animation: pulse 2s infinite;
+        }
+        .btn-buy-now:hover {
+            background: linear-gradient(135deg, #4348b8, #7a80eb);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(78, 84, 200, 0.4);
+            animation: none;
+        }
+        
+        .btn-add-to-cart {
+            background: linear-gradient(135deg, #11998e, #38ef7d);
+            border: none;
+            color: white;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(17, 153, 142, 0.3);
+        }
+        .btn-add-to-cart:hover {
+            background: linear-gradient(135deg, #0e857a, #2fd86d);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(17, 153, 142, 0.4);
+        }
+        
+        .btn-wishlist {
+            transition: all 0.3s ease;
+        }
+        .btn-wishlist:hover {
+            color: #dc3545 !important;
+            border-color: #dc3545 !important;
+            transform: scale(1.05);
+        }
+        
+        /* Other Elements */
+        .review-card {
+            border-left: 3px solid #0d6efd;
+            transition: all 0.3s ease;
+        }
+        .review-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .rating {
+            color: #ffc107;
+        }
+        
+        .product-info {
+            position: sticky;
+            top: 20px;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        .discount-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #dc3545;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            animation: pulse 1.5s infinite;
+        }
+        
+        @media (max-width: 768px) {
+            .product-info {
+                position: static;
+                animation: none;
+            }
+        }
+        
+        /* Quantity Selector */
+        .quantity-selector .btn {
+            width: 40px;
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
+        .quantity-selector .btn:active {
+            transform: scale(0.95);
+        }
+        .quantity-selector input {
+            text-align: center;
+            font-weight: bold;
+        }
+
+          .modal-content {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    overflow: hidden;
+    border: none !important;
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .modal-header {
+    background-color:  #98fbcb;
+    color: black;
+  }
+  
+  .modal-title {
+    color: black;
+    font-size: 1.5rem;
+  }
+  
+  .btn-close {
+    filter: invert(1);
+  }
+  
+  #google-login-btn {
+    transition: all 0.3s;
+    border: 2px solid #4285F4;
+    color: #4285F4;
+    font-weight: 600;
+  }
+  
+  #google-login-btn:hover {
+    background: #4285F4;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(66, 133, 244, 0.3);
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(142, 124, 195, 0.25);
+    border-color: #8f94fb;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    border: none;
+    transition: all 0.3s;
+  }
+  
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(78, 84, 200, 0.4);
+  }
+  
+  .product-card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .discount-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff4757;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(0.95); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(0.95); }
+  }
+  
+  .floating {
+    animation: floating 3s ease-in-out infinite;
+  }
+  
+  @keyframes floating {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6c757d;
+    margin: 1rem 0;
+  }
+  
+  .divider::before, .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .divider::before {
+    margin-right: .5em;
+  }
+  
+  .divider::after {
+    margin-left: .5em;
+  }
+  
+  .login-btn {
+    animation: pulse 2s infinite;
+    transition: all 0.3s;
+  }
+  
+  .login-btn:hover {
+    animation: none;
+    transform: scale(1.05);
+  }
+  
+  .social-icon {
+    transition: all 0.3s;
+  }
+  
+  .social-icon:hover {
+    transform: translateY(-3px);
+    color: #4e54c8 !important;
+  }
+  
+  .feature-item {
+    transition: all 0.3s;
+  }
+  
+  .feature-item:hover {
+    transform: translateX(5px);
+  }
+
+  .navbar .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Aligns the menu nicely */
+}
+
+/* Optional: Prevent Bootstrap click toggle */
+.navbar .dropdown-toggle::after {
+  display: none;
+}
+
+.btn-1 {
+    height: 40px;
+    width: 50px;
+  position: relative;
+  /* padding: 1rem ; */
+  /* padding:10px; */
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+  background: none;
+  border: 2px solid #558b71;
+  border-radius: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.liquid-1 {
+  background: linear-gradient(#558b71 0 0) no-repeat calc(200% - var(--p, 0%))
+    100% / 200% var(--p, 0.2em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+.liquid-1:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: #fff;
+}

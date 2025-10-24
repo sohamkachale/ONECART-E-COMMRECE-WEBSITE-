@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OneCart - Help Center</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <!-- Animate.css for effects -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <style>
+    :root {
+      --primary-color: #00b386;
+    }
+
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar {
+      background-color: #98fbcb;
+    }
+
+    .header-banner {
+      background: linear-gradient(rgba(0, 179, 134, 0.85), rgba(0, 179, 134, 0.85)),
+        url('https://source.unsplash.com/1600x500/?support,customer');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .header-banner h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    .card-section {
+      margin-top: 40px;
+    }
+
+    .card-help {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .card-help:hover {
+      transform: translateY(-6px);
+    }
+
+    .card-help .card-header {
+      background-color: var(--primary-color);
+      color: white;
+      font-weight: bold;
+    }
+
+    .icon-box {
+      font-size: 2rem;
+      color: var(--primary-color);
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    .btn-support {
+      background-color: var(--primary-color);
+      border: none;
+    }
+
+    .btn-support:hover {
+      background-color: #029b70;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class=" sticky-top  navbar navbar-expand-lg" style="background-color: #98fbcb;">
+        <div class="container-fluid">
+            <!-- Brand -->
+            <a class="navbar-brand d-flex align-items-center gap-2 fw-bold fs-3" href="#">
+                <i class="fa-solid fa-basket-shopping fa-1x text-black"></i> OneCart
+            </a>
+
+            <!-- Toggle button for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar content -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+                <!-- Search bar -->
+                <form class="d-flex mx-auto w-50" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn-1 liquid-1" type="submit">
+                        <i class="fa-solid fa-magnifying-glass text-black"></i>
+                        <span></span>
+                    </button>
+                </form>
+
+                <!-- Menu items -->
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="Electronics.html" target="_blank" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bolt fa-1x"></i> Electronics
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-scroll " style="width: 800px; margin-left: -343%;">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <li><a class="dropdown-item" href="Electronics.html">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Smartphone</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Tablet</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Smartwatch</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Headphones</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Earbuds</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Bluetooth Speaker</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Smart TV</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Home Theater</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Desktop PC</a></li>
+                                </div>
+                                <div class="col-md-4">
+                                    <li><a class="dropdown-item" href="Electronics.html">Gaming Console</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">VR Headset</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Drone</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Digital Camera</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">DSLR Camera</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Camcorder</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Printer</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Scanner</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Projector</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Smart Light</a></li>
+                                </div>
+                                <div class="col-md-4">
+                                    <li><a class="dropdown-item" href="Electronics.html">Smart Plug</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">WiFi Router</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Modem</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Power Bank</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Charger</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">USB Cable</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">SSD</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">RAM</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Graphics Card</a></li>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-4">
+                                    <li><a class="dropdown-item" href="Electronics.html">Motherboard</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Processor (CPU)</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Cooling Fan</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Smart Thermostat</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Security Camera</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Video Doorbell</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Fitness Tracker</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Electric Scooter</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">E-bike</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">GPS Device</a></li>
+                                </div>
+                                <div class="col-md-4">
+                                    <li><a class="dropdown-item" href="Electronics.html">Microwave Oven</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Induction Stove</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Air Conditioner</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Refrigerator</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Washing Machine</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Electric Kettle</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Toaster</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Blender</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Coffee Maker</a></li>
+                                    <li><a class="dropdown-item" href="Electronics.html">Vacuum Cleaner</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="fashion.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-shirt"></i> Fashion
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="fashion.html">mens</a>
+
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li><a class="dropdown-item" href="fashion.html">womens</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="fashion.html">kids</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="grocery.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-carrot"></i> Grocerry
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="grocery.html">Personal & Household Care</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="grocery.html">Snacks & Beverages</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="grocery.html">Fruits & Vegetables</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="grocery.html">Dairy & Bakery</a></li>
+
+                        </ul>
+                    </li>
+                    <a class="nav-link " href="help.html" role="button" 
+                        aria-expanded="false">
+                        <i class="fa-solid fa-headset"></i> Help
+                    </a>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-dark btn-lg login-btn" data-bs-toggle="modal"
+                            data-bs-target="#loginModal" id="login-btn">
+                            <i class="fas fa-user-circle me-2"></i><b>Login</b>
+                        </button>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Header Banner -->
+<header class="header-banner animate_animated animate_fadeIn">
+  <div class="container">
+    <h1>Need Help Shopping?</h1>
+    <p class="lead">We're here to assist you with anything – from order issues to payment and product queries.</p>
+  </div>
+</header>
+
+<!-- Help Cards Section -->
+<section class="container card-section">
+  <div class="row text-center">
+    <div class="col-md-4 mb-4">
+      <div class="card card-help animate_animated animate_fadeInUp">
+        <div class="card-header">Shopping Issues</div>
+        <div class="card-body">
+          <div class="icon-box"><i class="fas fa-shopping-cart"></i></div>
+          <p>Having trouble adding items to your cart or completing your order?</p>
+          <a href="#faq" class="btn btn-support">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card card-help animate_animated animatefadeInUp animate_delay-1s">
+        <div class="card-header">Payment Help</div>
+        <div class="card-body">
+          <div class="icon-box"><i class="fas fa-credit-card"></i></div>
+          <p>Payment failed? Need help with refunds or invoices?</p>
+          <a href="#faq" class="btn btn-support">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card card-help animate_animated animatefadeInUp animate_delay-2s">
+        <div class="card-header">Product Support</div>
+        <div class="card-body">
+          <div class="icon-box"><i class="fas fa-box-open"></i></div>
+          <p>Not sure about a product or facing issues after delivery?</p>
+          <a href="#faq" class="btn btn-support">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="container my-5" id="faq">
+  <h2 class="mb-4 text-center">Frequently Asked Questions</h2>
+  <div class="accordion" id="faqAccordion">
+    <!-- FAQ Items Start -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1">
+          Why is my order not processing?
+        </button>
+      </h2>
+      <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Please check your internet connection and make sure all required fields are filled during checkout.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">
+          How do I request a refund?
+        </button>
+      </h2>
+      <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Visit your orders section and click on the product to request a refund within 7 days of delivery.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3">
+          Can I cancel an order after payment?
+        </button>
+      </h2>
+      <div id="q3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Yes, you can cancel within 30 minutes of payment from your account dashboard.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4">
+          Do you offer free delivery?
+        </button>
+      </h2>
+      <div id="q4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Yes! We offer free delivery on all orders above ₹499 across India.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5">
+          How can I track my order?
+        </button>
+      </h2>
+      <div id="q5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Go to 'My Orders' and click on the order to see real-time delivery updates and tracking ID.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q6">
+          What payment methods are accepted?
+        </button>
+      </h2>
+      <div id="q6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          We accept credit/debit cards, UPI, wallets, net banking, and cash on delivery in select areas.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q7">
+          My product is damaged. What should I do?
+        </button>
+      </h2>
+      <div id="q7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          We’re sorry! Please initiate a return via the “My Orders” section and upload a photo of the item.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q8">
+          How do I update my address or contact info?
+        </button>
+      </h2>
+      <div id="q8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          You can edit your delivery address or phone number from the "Account Settings" page anytime.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q9">
+          Do you provide invoices with orders?
+        </button>
+      </h2>
+      <div id="q9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Yes, digital invoices are available in your order history and are also emailed after every purchase.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q10">
+          Can I schedule a delivery?
+        </button>
+      </h2>
+      <div id="q10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Yes, at checkout you can select a delivery slot that suits your availability (in select cities).
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+   
+
+  
+
+
+<!-- Contact Support Section -->
+<section class="container my-5 text-center">
+  <h2 class="mb-3">Still Need Help?</h2>
+  <p class="mb-4">Our support team is available 24/7 to help you with any issue.</p>
+  <a href="mailto:support@onecart.com" class="btn btn-lg btn-support"><i class="fas fa-envelope me-2"></i>Contact Support</a>
+</section>
+
+<!-- Footer -->
+<footer class="footer mt-5" style="background-color: #98fbcb;;">
+  <p style="color: black;"><b> &copy; 2025 OneCart. All rights reserved.</b></p>
+</footer>
+
+<!-- Bootstrap Bundle JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
