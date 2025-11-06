@@ -1,54 +1,54 @@
-OneCart - E-commerce Website
-Live Demo
-👉 Explore OneCart Live
+# OneCart – E-commerce Website
 
-Overview
-OneCart is a modern, fully responsive multi-category e-commerce platform built with HTML5, CSS3, JavaScript, and Bootstrap 5. It features seamless shopping for electronics, fashion, groceries, and more, with a mobile-first design and smooth user experience.
+**Live Demo:**  
+👉 [Explore OneCart Live](https://webonecart.netlify.app/)
 
-Features
-🛒 Multi-category shopping: Electronics, Fashion, Groceries & more
+---
 
-👗 Dynamic product cards with ratings, discounts, and quick-buy actions
+## Overview
 
-🛍️ Shopping cart with quantity update & real-time subtotal
+OneCart is a modern, fully responsive multi-category e-commerce platform that delivers seamless online shopping for electronics, fashion, groceries, and more. Built with HTML5, CSS3, JavaScript, and Bootstrap 5, it combines engaging UI, real-time features, and smooth mobile-first experience for shoppers.
 
-🔒 Secure checkout and payment pages
+---
 
-🚚 Order confirmation & real-time order tracking
+## Features
 
-🔎 Product search & filtering
+- 🛒 **Multi-category shopping:** Electronics, Fashion, Groceries & more
+- 👗 **Dynamic product cards:** Ratings, discounts, quick-buy actions
+- 🛍️ **Shopping cart:** Quantity updates & real-time subtotal
+- 🔒 **Secure checkout:** Payment pages with validation
+- 🚚 **Order confirmation:** Real-time order tracking and status
+- 🔎 **Product search & filtering:** Instant lookup features
+- 🎨 **Gradient UI:** Responsive cards and engaging animations
+- 📱 **Mobile-friendly:** Cross-browser compatibility
+- 🙋‍♂️ **Help center:** FAQs & user support
+- 💬 **Login/modal dialogs:** Fast user account actions
 
-🎨 Gradient UI, responsive cards, engaging animations
+---
 
-📱 Mobile-friendly & cross-browser compatible
+## Tech Stack
 
-🙋‍♂️ Help center with FAQs and support
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Bootstrap 5** (Responsive Grid & Components)
+- **Font Awesome** (Iconography)
+- **Animate.css** (Visual Animations)
 
-💬 Login/modal dialogs for fast user actions
+---
 
-Tech Stack
-HTML5, CSS3, JavaScript
+## Screenshots
 
-Bootstrap 5 (Responsive Grid & Components)
 
-Font Awesome (Iconography)
 
-Animate.css (Visual Animations)
+---
 
-Screenshots
-Home, Electronics, Fashion, Grocery, Cart, Checkout, Order, and Help Center pages all included.
-
-Getting Started
-To run locally, clone the repo and open index.html in your browser.
-
-bash
+## Getting Started
 git clone https://github.com/your-username/onecart.git
 cd onecart
-# Open index.html in any browser
-Contributing
-Pull requests are welcome. For major changes, open an issue first.
+## Try the Live Site
 
-License
-MIT
+Visit [https://webonecart.netlify.app/](https://webonecart.netlify.app/) to experience OneCart in action.
 
-Try the live site: https://webonecart.netlify.app/
+To run locally, clone the repository and open `index.html` in your browser.
+
