@@ -38,6 +38,7 @@ OneCart is a modern, fully responsive multi-category e-commerce platform that de
 ---
 
 ## Screenshots
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b2fffa2b-e9cd-4549-b4c4-ab347db4cd42" />
 
 
 
